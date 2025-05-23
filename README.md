@@ -4,12 +4,12 @@ A machine learning project that predicts passenger survival on the Titanic using
 
 ## Project Structure
 
+```
 titanic/
 ├── main.py
 ├── Titanic-Dataset.csv
-├── README.md
-└── confusion_matrix.png 
-
+└── README.md
+```
 
 ## Overview
 
@@ -25,16 +25,14 @@ This project uses a supervised machine learning approach to classify passengers 
 ## How to Run
 
 1. Ensure you have Python 3 and pip installed.
+   
 2. Install required libraries:
-
-```bash
-pip install pandas numpy scikit-learn matplotlib seaborn
+   ```bash
+   pip install pandas numpy scikit-learn matplotlib seaborn
 
 3. Run the script:
-
-```bash
-python main.py
-
+   ```bash
+   python main.py
 
 ## Model Performance
 
@@ -48,10 +46,10 @@ python main.py
 | 0 (Did Not Survive)   | 0.81      | 0.88   | 0.85     | 134     |
 | 1 (Survived)          | 0.79      | 0.70   | 0.74     | 89      |
 
-**Macro Avg F1-Score:** 0.79  
-**Weighted Avg F1-Score:** 0.80  
 
-### 📌 Confusion Matrix
+  
+
+### Confusion Matrix
 
 |                 | Predicted: 0 | Predicted: 1 |
 |-----------------|--------------|--------------|
@@ -60,7 +58,8 @@ python main.py
 
 Or view it visually:
 
-![Confusion Matrix](confusion_matrix.png)
+![Confusion-matrix](https://github.com/user-attachments/assets/3bad7990-5146-4913-a7e6-90f45d3348fc)
+
 
 
 ## Notes
@@ -68,9 +67,7 @@ Or view it visually:
 - You can modify the model or preprocessing logic in ```main.py```.
 
 ## Author
-Debb – @debb-major. Big shout out to 'Code with Josh' on YouTube
+### debb-major 💙
+Tutorial(YouTube) - Code with Josh.
 
-
-## License
-This project is open-source and available under the MIT License.
 
